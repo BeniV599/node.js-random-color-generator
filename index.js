@@ -18,9 +18,7 @@ ${partHash} ${partSpace5} ${partSpace7} ${partSpace5} ${partHash}
 ${fullHash}
 ${fullHash}
 ${fullHash}`);
-}
-
-// Randomly generates color depending on user input and then print it
+} // Randomly generates color depending on user input and then print it
 
 const color = randomColor({
   luminosity: process.argv[3],
