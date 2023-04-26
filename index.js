@@ -3,7 +3,7 @@ import randomColor from 'randomcolor';
 
 // Prints the result in the required pattern
 
-function printResult(color) {
+function printColor(color) {
   const fullHash = kuler('#'.repeat(31), color);
   const partHash = kuler('#'.repeat(5), color);
   const partSpace5 = kuler(' '.repeat(5), color);
@@ -26,4 +26,4 @@ const color = randomColor({
   luminosity: process.argv[3],
   hue: process.argv[2],
 });
-printResult(color);
+printColor(color);
